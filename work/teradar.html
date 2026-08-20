@@ -4,12 +4,12 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Teradar — Julian Toquica</title>
-<meta name="description" content="Teradar — product modeling and a custom point-cloud system for a Lidar/Radar automotive device, via Global Grid Agency.">
+<meta name="description" content="Teradar — product modeling and a custom Blender point-cloud system for a vehicle safety device, via Global Grid Agency.">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%230a0a09'/%3E%3Ctext x='50' y='68' font-size='55' font-family='sans-serif' font-weight='700' fill='%239b5de5' text-anchor='middle'%3EJ%3C/text%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="../styles.css?v=20260947">
+<link rel="stylesheet" href="../styles.css?v=20260969">
 <noscript><style>.reveal{opacity:1!important;transform:none!important;}</style></noscript><!-- no-js fallback -->
 </head>
 <body>
@@ -37,7 +37,7 @@
     <div class="project-head-overlay container reveal">
       <p class="eyebrow"><span class="dot"></span>3D + AI · Product</p>
       <h1>Teradar</h1>
-      <p class="project-dek">Product modeling for Teradar, a Lidar/Radar-style device that mounts to the front of a vehicle, paired with a custom point-cloud system combined with AI imagery.</p>
+      <p class="project-dek">Teradar is a vehicle safety device, an upgrade on radar and lidar — where a visually compelling point-cloud system mattered as much as the hardware for reaching a general audience. I modeled the product for concept renders, and built a custom point-cloud system in Blender to keep the AI-generated imagery consistent.</p>
       <div class="project-meta"><span class="tag">Blender</span><span class="tag tag--ai">Midjourney</span><span class="tag tag--ai">Weave</span></div>
     </div>
   </section>
@@ -50,7 +50,7 @@
       </a>
       <div class="sidebar-block">
         <h4>About</h4>
-        <p>Product modeling for Teradar, a Lidar/Radar-style device that mounts to the front of a vehicle, paired with a custom point-cloud system combined with AI imagery.</p>
+        <p>Teradar is a vehicle safety product, an improvement on radar and lidar, where a visually compelling point-cloud system mattered as much as the engineering. Working with Global Grid Agency on an AI image workflow, I built a custom point-cloud system in Blender to keep results consistent. I also modeled the device itself — a conceptual design built purely for attractive renders, used across marketing and their website.</p>
       </div>
       <div class="sidebar-block">
         <h4>Software</h4>
@@ -72,7 +72,11 @@
 
     <div class="project-main">
       <div>
-        <div class="section-head reveal"><p class="eyebrow"><span class="dot"></span>Product</p><h2>The device.</h2></div>
+        <div class="section-head reveal">
+          <p class="eyebrow"><span class="dot"></span>Product</p>
+          <h2>The device.</h2>
+          <p>A conceptual design, not a realistic engineering model — I modeled and textured this version of the device purely for attractive renders, used across marketing and the Teradar website.</p>
+        </div>
         <div class="detail-row reveal">
           <div class="ph ph--16x9" data-asset="teradar/product-1"><img src="../assets/img/teradar/product-1.webp" alt="Teradar — device render, exploded view" loading="lazy" decoding="async"></div>
           <div class="ph ph--16x9" data-asset="teradar/product-2"><img src="../assets/img/teradar/product-2.webp" alt="Teradar — device render, top view" loading="lazy" decoding="async"></div>
@@ -84,27 +88,24 @@
       <div>
         <div class="section-head reveal">
           <p class="eyebrow eyebrow--ai"><span class="dot"></span>Point Cloud System</p>
-          <h2>Why a custom system, not just AI.</h2>
+          <h2 style="font-size: clamp(1.2rem, 2.4vw, 1.7rem);">Why a custom system, not just AI.</h2>
           <p>AI alone isn't consistent between results — running the same prompt twice gives different point distributions. So the point-cloud system was built directly in Blender, procedurally, to be reliably repeatable across every render.</p>
         </div>
-        <div class="ph ph--16x9 ph--video reveal" data-asset="teradar/pointcloud-morph">
-          <svg class="ph-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M10 8l6 4-6 4V8z" fill="currentColor" stroke="none"/></svg>
-          <span class="ph-label">Organic sphere — point-cloud morph animation</span>
-          <span class="ph-meta">assets/img/teradar/pointcloud-morph.mp4</span>
+        <div class="note reveal">Some of the AI-generated environment images shown here weren't created by me — what I built is the point-cloud system, applied consistently on top of them.</div>
+        <div class="pair-row reveal">
+          <div class="ph ph--ai" style="aspect-ratio: 1/1;" data-asset="teradar/pointcloud-0"><img src="../assets/img/teradar/pointcloud-0.webp" alt="Teradar — organic sphere, point cloud base" loading="lazy" decoding="async"></div>
+          <div class="ph ph--video" style="aspect-ratio: 1/1;" data-asset="teradar/pointcloud-morph">
+            <video data-src="../assets/img/teradar/pointcloud-morph.mp4?v=20260969" muted loop playsinline preload="none"></video>
+          </div>
         </div>
         <div class="detail-feature detail-feature--row5 reveal" style="margin-top:19px;">
-          <div class="ph ph--1x1 ph--ai" data-asset="teradar/pointcloud-1"><img src="../assets/img/teradar/pointcloud-1.webp" alt="Teradar — point cloud applied, rainy crossing" loading="lazy" decoding="async"></div>
+          <div class="ph ph--1x1 ph--ai" data-asset="teradar/pointcloud-1"><img src="../assets/img/teradar/pointcloud-1.webp?v=20260969" alt="Teradar — point cloud applied, rainy crossing" loading="lazy" decoding="async"></div>
           <div class="ph ph--1x1 ph--ai" data-asset="teradar/pointcloud-2"><img src="../assets/img/teradar/pointcloud-2.webp" alt="Teradar — point cloud applied, city street" loading="lazy" decoding="async"></div>
           <div class="ph ph--1x1 ph--ai" data-asset="teradar/pointcloud-3"><img src="../assets/img/teradar/pointcloud-3.webp" alt="Teradar — point cloud applied, night highway HUD" loading="lazy" decoding="async"></div>
           <div class="ph ph--1x1 ph--ai" data-asset="teradar/pointcloud-4"><img src="../assets/img/teradar/pointcloud-4.webp" alt="Teradar — point cloud applied, mountain road" loading="lazy" decoding="async"></div>
           <div class="ph ph--1x1 ph--ai" data-asset="teradar/pointcloud-5"><img src="../assets/img/teradar/pointcloud-5.webp" alt="Teradar — point cloud applied, snowstorm" loading="lazy" decoding="async"></div>
         </div>
       </div>
-
-      <a class="crosslink reveal" style="pointer-events:none; opacity:.9;">
-        <span>External link — additional point-cloud renders on the Teradar site (placeholder, add URL when available)</span>
-        <svg class="arrow" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M7 17L17 7M17 7H9M17 7v8"/></svg>
-      </a>
     </div>
   </div>
 
@@ -112,7 +113,7 @@
     <p class="related-label reveal">Related projects</p>
     <div class="related-grid reveal">
       <a class="related-card" data-tilt href="natilus.html">
-        <div class="ph" data-asset="natilus/card"><span class="ph-label">Natilus</span></div>
+        <div class="ph" data-asset="natilus/card"><img src="../assets/img/natilus/preview.webp" alt="Natilus" loading="lazy" decoding="async"></div>
         <span class="related-cat">3D + AI · Product</span><span class="related-title">Natilus</span>
       </a>
       <a class="related-card" data-tilt href="kosmo.html">
@@ -145,7 +146,7 @@
   </div>
 </footer>
 
-<script defer src="../lib/manifest.js?v=20260947"></script>
-<script defer src="../main.js?v=20260947"></script>
+<script defer src="../lib/manifest.js?v=20260969"></script>
+<script defer src="../main.js?v=20260969"></script>
 </body>
 </html>

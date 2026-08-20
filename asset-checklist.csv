@@ -80,9 +80,8 @@ Can Anybody Hear Me?,izumi/panel-full,assets/img/izumi/panel-full.webp,image,120
 Can Anybody Hear Me?,izumi/panel-medium,assets/img/izumi/panel-medium.webp,image,1200 x 1600,webp,180 KB,,Medium shot — shoulders up,Delivered
 Can Anybody Hear Me?,izumi/turntable-video,assets/img/izumi/turntablevideo.mp4,video,1200 x 1600,mp4 (H.264),4.0 MB,"10s, muted loop — recompressed to 4.77 MB, close to budget",360° turntable — clay → textured,Delivered
 Kosmo,kosmo/animation-video,assets/img/kosmo/animation-video.mp4,video,1920 x 1080,mp4 (H.264),15.0 MB,"full length, with audio",Product animation,Pending
-Kosmo,kosmo/context-hand,assets/img/kosmo/context-hand.webp,image,1200 x 1200,webp,120 KB,,In hand,Pending
-Kosmo,kosmo/context-museum,assets/img/kosmo/context-museum.webp,image,1200 x 1200,webp,120 KB,,Scanning a museum,Pending
-Kosmo,kosmo/context-room,assets/img/kosmo/context-room.webp,image,1200 x 1200,webp,120 KB,,Scanning a room,Pending
+Kosmo,kosmo/context-hand,assets/img/kosmo/ai-render-01.webp,image,1920 x 1080,webp,485 KB,,In hand,Delivered
+Kosmo,kosmo/context-museum,assets/img/kosmo/context-museum.webp,image,1920 x 1080,webp,180 KB,,Scanning a museum,Pending
 Kosmo,kosmo/hero,assets/img/kosmo/hero.webp,image,2400 x 1350,webp,320 KB,,Cinematic product render,Delivered
 Kosmo,kosmo/preview,assets/img/kosmo/frame-hero.webp,image,2400 x 1350,webp,320 KB,,Card thumbnail — used on Home/Work/Related cards,Delivered
 Kosmo,kosmo/render-1,assets/img/kosmo/kosmo-product-01.webp,image,3840 x 2160,webp,320 KB,,Render 1,Delivered
@@ -105,18 +104,18 @@ Can Anybody Hear Me?,mini-izumi/ai-poster,assets/img/mini-izumi/ai-poster.webp,i
 Can Anybody Hear Me?,mini-izumi/panel-bike,assets/img/mini-izumi/panel-bike.webp,image,1200 x 1600,webp,180 KB,,Full body — on bicycle,Delivered
 Can Anybody Hear Me?,mini-izumi/panel-detail,assets/img/mini-izumi/panel-detail.webp,image,1200 x 1600,webp,180 KB,,Detail shot,Delivered
 Can Anybody Hear Me?,mini-izumi/turntable-video,assets/img/mini-izumi/turntablevideo.mp4,video,1200 x 1600,mp4 (H.264),4.0 MB,"10s, muted loop — delivered at 4.83 MB, slightly over budget",360° turntable — clay → textured,Delivered
-Natilus,natilus/ai-gallery-1,assets/img/natilus/ai-gallery-1.webp,image,1200 x 1200,webp,120 KB,,Exploration 1,Pending
-Natilus,natilus/ai-gallery-2,assets/img/natilus/ai-gallery-2.webp,image,1200 x 1200,webp,120 KB,,Exploration 2,Pending
-Natilus,natilus/ai-gallery-3,assets/img/natilus/ai-gallery-3.webp,image,1200 x 1200,webp,120 KB,,Exploration 3,Pending
-Natilus,natilus/aircraft-clean,assets/img/natilus/aircraft-clean.webp,image,1920 x 1080,webp,200 KB,,Clean 3D render — no background,Pending
-Natilus,natilus/aircraft-integrated,assets/img/natilus/aircraft-integrated.webp,image,1920 x 1080,webp,200 KB,,Final — AI context integrated,Pending
-Natilus,natilus/airport-assembly,assets/img/natilus/airport-assembly.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Compositing layers — After Effects,Pending
-Natilus,natilus/airport-final,assets/img/natilus/airport-final.webp,image,1920 x 1080,webp,200 KB,,Final composite,Pending
-Natilus,natilus/hangar-assembly,assets/img/natilus/hangar-assembly.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Layer assembly loop — same format as Gum House / Snow Base,Pending
-Natilus,natilus/hangar-clay,assets/img/natilus/hangar-clay.webp,image,1920 x 1080,webp,200 KB,,Clay pass,Pending
-Natilus,natilus/hangar-final,assets/img/natilus/hangar-final.webp,image,1920 x 1080,webp,200 KB,,Final render,Pending
-Natilus,natilus/hero,assets/img/natilus/hero.webp,image,2400 x 1350,webp,320 KB,,Futuristic Airport — hero composite,Pending
-Natilus,natilus/motion-branding,assets/img/natilus/motion-branding.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Animated logo + intro,Pending
+Natilus,natilus/render-1,assets/img/natilus/render-01.webp,image,1920 x 1072,webp,293 KB,,Aircraft integrated — AI environment 1,Delivered
+Natilus,natilus/render-2,assets/img/natilus/render-02.webp,image,1920 x 1080,webp,381 KB,,Aircraft integrated — AI environment 2,Delivered
+Natilus,natilus/render-3,assets/img/natilus/render-03.webp,image,1920 x 1072,webp,171 KB,,Aircraft integrated — AI environment 3,Delivered
+Natilus,natilus/render-4,assets/img/natilus/render-04.webp,image,1920 x 1072,webp,138 KB,,Aircraft integrated — AI environment 4,Delivered
+Natilus,natilus/render-5,assets/img/natilus/render-05.webp,image,1920 x 1072,webp,127 KB,,Aircraft integrated — AI environment 5,Delivered
+Natilus,natilus/render-6,assets/img/natilus/render-06.webp,image,1920 x 1080,webp,220 KB,,Aircraft integrated — AI environment 6,Delivered
+Natilus,natilus/airport-final,assets/img/natilus/airport-final.webp,image,1920 x 1080,webp,384 KB,,Final composite — Photoshop photomontage,Delivered
+Natilus,natilus/airport-assembly,assets/img/natilus/airport-assembly.mp4,video,1920 x 1080,mp4 (H.264),2.2 MB,"muted loop",Compositing process — Futuristic Airport,Delivered
+Natilus,natilus/hangar-final,assets/img/natilus/hangar-final.webp,image,1920 x 1080,webp,341 KB,,Final render — Hangar,Delivered
+Natilus,natilus/hangar-assembly,assets/img/natilus/hangar-assembly.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Clay pass to final scene — pieces falling into place,Pending
+Natilus,natilus/hero,assets/img/natilus/hero.webp,image,2400 x 1350,webp,320 KB,,Futuristic Airport — hero composite,Delivered
+Natilus,natilus/preview,assets/img/natilus/preview.webp,image,2400 x 1350,webp,320 KB,,Card thumbnail — used on Home/Work/Related cards,Delivered
 Orange Train Station,orange-train-station/assembly-video,assets/img/orange-train-station/assembly-video.mp4,video,1500 x 1956,mp4 (H.264),4.9 MB,"11s, muted loop — portrait, not 16:9 like other assembly videos",Layer assembly loop,Delivered
 Orange Train Station,orange-train-station/clay,assets/img/orange-train-station/clay.webp,image,1500 x 1956,webp,200 KB,,Clay pass,Delivered
 Orange Train Station,orange-train-station/detail-1,assets/img/orange-train-station/detail-1.webp,image,1500 x 1956,webp,180 KB,,Station platform detail,Delivered
@@ -134,8 +133,9 @@ Snow Base,snow-base/final,assets/img/snow-base/final.webp,image,1920 x 1080,webp
 Snow Base,snow-base/hero,assets/img/snow-base/hero.webp,image,2400 x 1350,webp,320 KB,,Final render — Snow Base,Delivered
 Teradar,teradar/hero,assets/img/teradar/hero.webp,image,2400 x 1350,webp,320 KB,,Product render,Delivered
 Teradar,teradar/preview,assets/img/teradar/preview.webp,image,2400 x 1350,webp,320 KB,,Card thumbnail — used on Home/Work/Related cards,Delivered
-Teradar,teradar/pointcloud-morph,assets/img/teradar/pointcloud-morph.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Organic sphere — point-cloud morph animation,Pending
-Teradar,teradar/pointcloud-1,assets/img/teradar/pointcloud-1.webp,image,1302 x 1080,webp,220 KB,,Point cloud applied — rainy crossing,Delivered
+Teradar,teradar/pointcloud-morph,assets/img/teradar/pointcloud-morph.mp4,video,2048 x 2048,mp4 (H.264),3.0 MB,"~10.4s, muted loop",Organic sphere — point-cloud morph animation,Delivered
+Teradar,teradar/pointcloud-0,assets/img/teradar/pointcloud-0.webp,image,1302 x 1080,webp,220 KB,,Organic sphere — point cloud base (shown next to the morph video),Delivered
+Teradar,teradar/pointcloud-1,assets/img/teradar/pointcloud-1.webp,image,1920 x 1080,webp,209 KB,,Point cloud applied — rainy crossing,Delivered
 Teradar,teradar/pointcloud-2,assets/img/teradar/pointcloud-2.webp,image,1920 x 1072,webp,290 KB,,Point cloud applied — city street,Delivered
 Teradar,teradar/pointcloud-3,assets/img/teradar/pointcloud-3.webp,image,1920 x 1080,webp,146 KB,,Point cloud applied — night highway HUD,Delivered
 Teradar,teradar/pointcloud-4,assets/img/teradar/pointcloud-4.webp,image,1920 x 1072,webp,245 KB,,Point cloud applied — mountain road,Delivered

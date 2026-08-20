@@ -142,10 +142,10 @@
   }
 
   /* ---------------------------------------------------------
-     Lazy-load autoplay videos — defer the network fetch until the
-     video is about to scroll into view, instead of downloading every
-     ambient loop on the page up front. Visual result is identical:
-     it's still playing by the time it's visible.
+     Lazy-load autoplay videos — the network fetch starts early
+     (600px before the video reaches the viewport), but playback
+     only starts once the video actually scrolls into view, and
+     pauses again once it scrolls out.
      --------------------------------------------------------- */
   function initLazyVideos() {
     var videos = $$("video[data-src]");
@@ -153,21 +153,26 @@
     function load(video) {
       video.src = video.dataset.src;
       video.removeAttribute("data-src");
-      video.play().catch(function () {});
     }
     if (!("IntersectionObserver" in window)) {
-      videos.forEach(load);
+      videos.forEach(function (v) { load(v); v.play().catch(function () {}); });
       return;
     }
-    var io = new IntersectionObserver(function (entries) {
+    var ioLoad = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
         if (entry.isIntersecting) {
           load(entry.target);
-          io.unobserve(entry.target);
+          ioLoad.unobserve(entry.target);
         }
       });
     }, { rootMargin: "600px 0px" });
-    videos.forEach(function (v) { io.observe(v); });
+    var ioPlay = new IntersectionObserver(function (entries) {
+      entries.forEach(function (entry) {
+        if (entry.isIntersecting) entry.target.play().catch(function () {});
+        else entry.target.pause();
+      });
+    }, { threshold: 0.01 });
+    videos.forEach(function (v) { ioLoad.observe(v); ioPlay.observe(v); });
   }
 
   /* ---------------------------------------------------------

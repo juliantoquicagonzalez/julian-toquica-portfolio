@@ -291,6 +291,9 @@ ul { list-style: none; padding: 0; }
   padding-bottom: 2.5rem;
 }
 .hero-page h1 { font-size: clamp(2.2rem, 6vw, 4rem); max-width: 18ch; }
+/* Compact variant: no h1 in this hero (e.g. About), so it doesn't need
+   the full title-block padding — just enough to clear the nav. */
+.hero-page--compact { padding-top: calc(var(--nav-h) + 1.6rem); padding-bottom: .4rem; }
 .hero-page .hero-sub { margin-top: 1.2rem; color: var(--ink-soft); max-width: 56ch; font-size: 1.05rem; }
 
 /* Project hero — full-bleed image, title overlaid at the bottom */
@@ -364,6 +367,7 @@ ul { list-style: none; padding: 0; }
 [data-asset="teradar-card"] img, [data-asset="teradar/card"] img { object-position: 53% center; }
 /* Point-cloud gallery — the two mountain-road shots have the vehicle left-of-center
    in the source, which reads as too far left once cropped into a 1:1 tile. */
+[data-asset="teradar/pointcloud-1"] img { object-position: 0% center; }
 [data-asset="teradar/pointcloud-4"] img { object-position: 100% center; }
 [data-asset="teradar/pointcloud-5"] img { object-position: 35% center; }
 /* Once a placeholder holds a real image, drop the striped/dashed "unfinished" look —
@@ -466,6 +470,9 @@ ul { list-style: none; padding: 0; }
   border-radius: 0 var(--radius-sm) var(--radius-sm) 0;
   font-size: .92rem; color: var(--ink-soft); margin-block: 1.6rem;
 }
+/* Inside .project-main, the flex gap already spaces it from its neighbors —
+   the note's own margin would stack on top and open up an oversized gap. */
+.project-main > .note { margin-block: 0; }
 
 /* Cross-link card */
 .crosslink {
