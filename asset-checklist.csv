@@ -1,0 +1,159 @@
+Project,Asset ID,Suggested filename,Type,Width x Height (px),Format,Max size,Duration/Notes,Description,Status
+Site-wide,about-portrait,assets/img/about-portrait.webp,image,1200 x 1500,webp,150 KB,,Portrait — Julian Toquica,Delivered
+Agnes,agnes/pose-1,assets/img/agnes/pose-1.webp,image,1200 x 1600,webp,120 KB,,Cinematic scene study 1,Delivered
+Agnes,agnes/pose-2,assets/img/agnes/pose-2.webp,image,1200 x 1600,webp,120 KB,,Cinematic scene study 2,Delivered
+Agnes,agnes/pose-3,assets/img/agnes/pose-3.webp,image,1200 x 1600,webp,120 KB,,Cinematic scene study 3,Delivered
+Agnes,agnes/hero,assets/img/agnes/hero.webp,image,2400 x 1350,webp,320 KB,,AI poster — cinematic scene,Delivered
+Agnes,agnes/panel-face,assets/img/agnes/panel-face.webp,image,1200 x 1600,webp,180 KB,,Face / mask detail,Delivered
+Agnes,agnes/panel-full,assets/img/agnes/panel-full.webp,image,1200 x 1600,webp,180 KB,,Full body — relaxed pose,Delivered
+Agnes,agnes/panel-detail,assets/img/agnes/panel-detail.webp,image,1200 x 1600,webp,180 KB,,Detail study — next to turntable,Delivered
+Agnes,agnes/turntable-video,assets/img/agnes/turntable-video.mp4,video,1200 x 1600,mp4 (H.264),4.0 MB,"~6-10s, muted loop",360° turntable — clay → textured,Delivered
+Bubbles and Friends — Cast,bubbles-characters/billy-frame,assets/img/bubbles-characters/billy-frame.webp,image,1920 x 1080,webp,200 KB,,Episode frame,Delivered
+Bubbles and Friends — Cast,bubbles-characters/billy-render,assets/img/bubbles-characters/billy-render.webp,image,1920 x 1080,webp,200 KB,,Clean render,Delivered
+Bubbles and Friends — Cast,bubbles-characters/hero,assets/img/bubbles-characters/hero.webp,image,2400 x 1350,webp,320 KB,,"Full cast, together in the show's city",Delivered
+Bubbles and Friends — Cast,bubbles-characters/miss-frame,assets/img/bubbles-characters/miss-frame.webp,image,1920 x 1080,webp,200 KB,,Episode frame,Delivered
+Bubbles and Friends — Cast,bubbles-characters/miss-render,assets/img/bubbles-characters/miss-render.webp,image,1920 x 1080,webp,200 KB,,Clean render,Delivered
+Bubbles and Friends — Cast,bubbles-characters/montage-video,assets/img/bubbles-characters/montage-video.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~10-15s, muted",Episode montage (optional),Delivered
+Bubbles and Friends — Cast,bubbles-characters/pablo-frame,assets/img/bubbles-characters/pablo-frame.webp,image,1920 x 1080,webp,200 KB,,Episode frame,Delivered
+Bubbles and Friends — Cast,bubbles-characters/pablo-render,assets/img/bubbles-characters/pablo-render.webp,image,1920 x 1080,webp,200 KB,,Clean render,Delivered
+Bubbles and Friends — Cast,bubbles-characters/pingpanda-frame,assets/img/bubbles-characters/pingpanda-frame.webp,image,1920 x 1080,webp,200 KB,,Episode frame,Delivered
+Bubbles and Friends — Cast,bubbles-characters/pingpanda-render,assets/img/bubbles-characters/pingpanda-render.webp,image,1920 x 1080,webp,200 KB,,Clean render,Delivered
+Bubbles and Friends — Cast,bubbles-characters/tito-frame,assets/img/bubbles-characters/tito-frame.webp,image,1920 x 1080,webp,200 KB,,Episode frame,Delivered
+Bubbles and Friends — Cast,bubbles-characters/tito-render,assets/img/bubbles-characters/tito-render.webp,image,1920 x 1080,webp,200 KB,,Clean render,Delivered
+Bubbles and Friends — Sets,bubbles-environments/granero-frame,assets/img/bubbles-environments/granero-frame.webp,image,1920 x 1080,webp,200 KB,,Episode frame,Delivered
+Bubbles and Friends — Sets,bubbles-environments/granero-render,assets/img/bubbles-environments/granero-render.webp,image,1920 x 1080,webp,200 KB,,Clean render,Delivered
+Bubbles and Friends — Sets,bubbles-environments/penny-frame,assets/img/bubbles-environments/penny-frame.webp,image,1920 x 1080,webp,200 KB,,Episode frame,Delivered
+Bubbles and Friends — Sets,bubbles-environments/penny-render,assets/img/bubbles-environments/penny-render.webp,image,1920 x 1080,webp,200 KB,,Clean render,Delivered
+Bubbles and Friends — Sets,bubbles-environments/tle-frame,assets/img/bubbles-environments/tle-frame.webp,image,1920 x 1080,webp,200 KB,,Episode frame,Delivered
+Bubbles and Friends — Sets,bubbles-environments/tle-render,assets/img/bubbles-environments/tle-render.webp,image,1920 x 1080,webp,200 KB,,Clean render,Delivered
+Bubbles and Friends — Sets,bubbles-environments/bomberos-frame,assets/img/bubbles-environments/bomberos-frame.webp,image,1920 x 1080,webp,200 KB,,Episode frame,Delivered
+Bubbles and Friends — Sets,bubbles-environments/bomberos-render,assets/img/bubbles-environments/bomberos-render.webp,image,1920 x 1080,webp,200 KB,,Clean render,Delivered
+Bubbles and Friends — Sets,bubbles-environments/twoplus-frame,assets/img/bubbles-environments/twoplus-frame.webp,image,1920 x 1080,webp,200 KB,,Episode frame,Delivered
+Bubbles and Friends — Sets,bubbles-environments/twoplus-render,assets/img/bubbles-environments/twoplus-render.webp,image,1920 x 1080,webp,200 KB,,Clean render,Delivered
+Bubbles and Friends — Sets,bubbles-environments/hero,assets/img/bubbles-environments/hero.webp,image,2400 x 1350,webp,320 KB,,Intro frame — several sets together,Delivered
+Bubbles and Friends — Sets,bubbles-environments/montage-video,assets/img/bubbles-environments/montage-video.mp4,video,3840 x 2160,mp4 (H.264),4.0 MB,"~10-15s, muted",Episode montage (10–15s),Delivered
+Forest Castle,castillo-bosque/assembly-video,assets/img/castillo-bosque/assembly-video.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Two-stage assembly loop,Pending
+Forest Castle,castillo-bosque/clay,assets/img/castillo-bosque/clay.webp,image,1920 x 1080,webp,200 KB,,Clay pass,Pending
+Forest Castle,castillo-bosque/detail-2,assets/img/castillo-bosque/detail-2.webp,image,1200 x 1500,webp,180 KB,,Foreground tree/rock frame,Pending
+Forest Castle,castillo-bosque/detail-3,assets/img/castillo-bosque/detail-3.webp,image,1200 x 1500,webp,180 KB,,Valley &amp; mountain backdrop,Pending
+Forest Castle,castillo-bosque/detail-front,assets/img/castillo-bosque/detail-front.webp,image,1200 x 1500,webp,180 KB,,"Frontal view, closer",Pending
+Forest Castle,castillo-bosque/final,assets/img/castillo-bosque/final.webp,image,1920 x 1080,webp,200 KB,,Final render,Pending
+Forest Castle,castillo-bosque/hero,assets/img/castillo-bosque/hero.webp,image,2400 x 1350,webp,320 KB,,Final render — full composition,Pending
+Medieval Street Castle,castillo-calle-medieval/assembly-video,assets/img/castillo-calle-medieval/assembly-video.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Two-stage assembly loop,Pending
+Medieval Street Castle,castillo-calle-medieval/hero,assets/img/castillo-calle-medieval/hero.webp,image,2400 x 1350,webp,320 KB,,Final render — castle assembled in the medieval street,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-base-1,assets/img/castillo-calle-medieval/kit-base-1.webp,image,800 x 800,webp,70 KB,,Base variant A,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-base-2,assets/img/castillo-calle-medieval/kit-base-2.webp,image,800 x 800,webp,70 KB,,Base variant B,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-door-1,assets/img/castillo-calle-medieval/kit-door-1.webp,image,800 x 800,webp,70 KB,,Door A,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-door-2,assets/img/castillo-calle-medieval/kit-door-2.webp,image,800 x 800,webp,70 KB,,Door B,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-tower-mid-1,assets/img/castillo-calle-medieval/kit-tower-mid-1.webp,image,800 x 800,webp,70 KB,,Tower mid A,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-tower-mid-2,assets/img/castillo-calle-medieval/kit-tower-mid-2.webp,image,800 x 800,webp,70 KB,,Tower mid B,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-tower-mid-3,assets/img/castillo-calle-medieval/kit-tower-mid-3.webp,image,800 x 800,webp,70 KB,,Tower mid C,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-tower-top-1,assets/img/castillo-calle-medieval/kit-tower-top-1.webp,image,800 x 800,webp,70 KB,,Tower top A,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-tower-top-2,assets/img/castillo-calle-medieval/kit-tower-top-2.webp,image,800 x 800,webp,70 KB,,Tower top B,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-tower-top-3,assets/img/castillo-calle-medieval/kit-tower-top-3.webp,image,800 x 800,webp,70 KB,,Tower top C,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-tower-top-4,assets/img/castillo-calle-medieval/kit-tower-top-4.webp,image,800 x 800,webp,70 KB,,Tower top D,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-tower-top-5,assets/img/castillo-calle-medieval/kit-tower-top-5.webp,image,800 x 800,webp,70 KB,,Tower top E,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-wall,assets/img/castillo-calle-medieval/kit-wall.webp,image,800 x 800,webp,70 KB,,Wall segment,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-window-1,assets/img/castillo-calle-medieval/kit-window-1.webp,image,800 x 800,webp,70 KB,,Window block A,Pending
+Medieval Street Castle,castillo-calle-medieval/kit-window-2,assets/img/castillo-calle-medieval/kit-window-2.webp,image,800 x 800,webp,70 KB,,Window block B,Pending
+Medieval Street Castle,castillo-calle-medieval/reconfig-video,assets/img/castillo-calle-medieval/reconfig-video.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Short clip — 2-3 kit reconfigurations,Pending
+Goblin,goblin/commercial-video,assets/img/goblin/commercial-video.mp4,video,1920 x 1080,mp4 (H.264),15.0 MB,"full length, with audio",Final piece / aired,Delivered
+Goblin,goblin/hero,assets/img/goblin/hero.webp,image,2400 x 1350,webp,320 KB,,"Best clean render — dynamic pose, no background",Delivered
+Goblin,goblin/pose-1,assets/img/goblin/pose-1.webp,image,1200 x 1600,webp,180 KB,,Dynamic pose 1,Delivered
+Goblin,goblin/pose-2,assets/img/goblin/pose-2.webp,image,1200 x 1600,webp,180 KB,,Dynamic pose 2,Delivered
+Goblin,goblin/pose-3,assets/img/goblin/pose-3.webp,image,1200 x 1600,webp,180 KB,,Dynamic pose 3,Delivered
+Goblin,goblin/turntable-video,assets/img/goblin/turntable-video.mp4,video,1200 x 1600,mp4 (H.264),4.0 MB,"~6-10s, muted loop",360° turntable,Delivered
+Gum House,gum-house/assembly-video,assets/img/gum-house/assembly-video.mp4,video,1920 x 1080,mp4 (H.264),4.8 MB,"15s, muted loop",Layer assembly loop,Delivered
+Gum House,gum-house/clay,assets/img/gum-house/clay.webp,image,1920 x 1080,webp,200 KB,,Clay pass,Delivered
+Gum House,gum-house/detail-props,assets/img/gum-house/detail-props.webp,image,1920 x 1080,webp,200 KB,,Props &amp; plants corner,Delivered
+Gum House,gum-house/detail-roof,assets/img/gum-house/detail-roof.webp,image,1920 x 1080,webp,200 KB,,Roof cap — candy topping,Delivered
+Gum House,gum-house/detail-water,assets/img/gum-house/detail-water.webp,image,1920 x 1080,webp,200 KB,,Water / waterfall zone,Delivered
+Gum House,gum-house/final,assets/img/gum-house/final.webp,image,1920 x 1080,webp,200 KB,,Final render,Delivered
+Gum House,gum-house/hero,assets/img/gum-house/hero.webp,image,2400 x 1350,webp,320 KB,,Final render — Gum House,Delivered
+Site-wide,home/showreel-bg,assets/img/home/showreel-bg.mp4,video,1920 x 1080,mp4 (H.264),8.0 MB,"~15-20s, muted loop","Background showreel — muted, looping cut of every project",Pending
+Can Anybody Hear Me?,izumi/ai-expr-1,assets/img/izumi/ai-expr-1.webp,image,1080 x 1080,webp,120 KB,,Expression study 1,Delivered
+Can Anybody Hear Me?,izumi/ai-expr-2,assets/img/izumi/ai-expr-2.webp,image,1080 x 1080,webp,120 KB,,Expression study 2,Delivered
+Can Anybody Hear Me?,izumi/ai-expr-3,assets/img/izumi/ai-expr-3.webp,image,1080 x 1080,webp,120 KB,,Expression study 3,Delivered
+Can Anybody Hear Me?,izumi/hero,assets/img/izumi/hero.webp,image,2400 x 1350,webp,320 KB,,Full-bleed page hero — Izumi in her room,Delivered
+Can Anybody Hear Me?,izumi/ai-poster,assets/img/izumi/ai-poster.webp,image,896 x 1200,webp,180 KB,,Character poster — next to the turntable,Delivered
+Can Anybody Hear Me?,izumi/panel-full,assets/img/izumi/panel-full.webp,image,1200 x 1600,webp,180 KB,,Full body — relaxed pose,Delivered
+Can Anybody Hear Me?,izumi/panel-medium,assets/img/izumi/panel-medium.webp,image,1200 x 1600,webp,180 KB,,Medium shot — shoulders up,Delivered
+Can Anybody Hear Me?,izumi/turntable-video,assets/img/izumi/turntablevideo.mp4,video,1200 x 1600,mp4 (H.264),4.0 MB,"10s, muted loop — recompressed to 4.77 MB, close to budget",360° turntable — clay → textured,Delivered
+Kosmo,kosmo/animation-video,assets/img/kosmo/animation-video.mp4,video,1920 x 1080,mp4 (H.264),15.0 MB,"full length, with audio",Product animation,Pending
+Kosmo,kosmo/context-hand,assets/img/kosmo/context-hand.webp,image,1200 x 1200,webp,120 KB,,In hand,Pending
+Kosmo,kosmo/context-museum,assets/img/kosmo/context-museum.webp,image,1200 x 1200,webp,120 KB,,Scanning a museum,Pending
+Kosmo,kosmo/context-room,assets/img/kosmo/context-room.webp,image,1200 x 1200,webp,120 KB,,Scanning a room,Pending
+Kosmo,kosmo/hero,assets/img/kosmo/hero.webp,image,2400 x 1350,webp,320 KB,,Cinematic product render,Delivered
+Kosmo,kosmo/preview,assets/img/kosmo/frame-hero.webp,image,2400 x 1350,webp,320 KB,,Card thumbnail — used on Home/Work/Related cards,Delivered
+Kosmo,kosmo/render-1,assets/img/kosmo/kosmo-product-01.webp,image,3840 x 2160,webp,320 KB,,Render 1,Delivered
+Kosmo,kosmo/render-2,assets/img/kosmo/kosmo-product-02.webp,image,3840 x 2160,webp,320 KB,,Render 2,Delivered
+Kosmo,kosmo/render-3,assets/img/kosmo/kosmo-product-03.webp,image,3840 x 2160,webp,320 KB,,Render 3,Delivered
+Site-wide,logo/after-effects,assets/img/logo/after-effects.svg,image,200 x 200,svg (preferred) / png,20 KB,,,Delivered
+Site-wide,logo/blender,assets/img/logo/blender.svg,image,200 x 200,svg (preferred) / png,20 KB,,,Delivered
+Site-wide,logo/gaea,assets/img/logo/gaea.svg,image,200 x 200,svg (preferred) / png,20 KB,,,Delivered
+Site-wide,logo/geoscatter,assets/img/logo/geoscatter.svg,image,200 x 200,svg (preferred) / png,20 KB,,,Delivered
+Site-wide,logo/marmoset,assets/img/logo/marmoset.svg,image,200 x 200,svg (preferred) / png,20 KB,,,Delivered
+Site-wide,logo/photoshop,assets/img/logo/photoshop.svg,image,200 x 200,svg (preferred) / png,20 KB,,,Delivered
+Site-wide,logo/substance-painter,assets/img/logo/substance-painter.svg,image,200 x 200,svg (preferred) / png,20 KB,,,Delivered
+Site-wide,logo/unity,assets/img/logo/unity.svg,image,200 x 200,svg (preferred) / png,20 KB,,,Delivered
+Site-wide,logo/weave,assets/img/logo/weave.svg,image,200 x 200,svg (preferred) / png,20 KB,,,Delivered
+Site-wide,logo/zbrush,assets/img/logo/zbrush.svg,image,200 x 200,svg (preferred) / png,20 KB,,,Delivered
+Can Anybody Hear Me?,mini-izumi/ai-expr-1,assets/img/mini-izumi/ai-expr-1.webp,image,1080 x 1080,webp,120 KB,,Expression study 1,Delivered
+Can Anybody Hear Me?,mini-izumi/ai-expr-2,assets/img/mini-izumi/ai-expr-2.webp,image,1080 x 1080,webp,120 KB,,Expression study 2,Delivered
+Can Anybody Hear Me?,mini-izumi/ai-expr-3,assets/img/mini-izumi/ai-expr-3.webp,image,1080 x 1080,webp,120 KB,,Expression study 3,Delivered
+Can Anybody Hear Me?,mini-izumi/ai-poster,assets/img/mini-izumi/ai-poster.webp,image,896 x 1200,webp,180 KB,,Character poster — next to the turntable,Delivered
+Can Anybody Hear Me?,mini-izumi/panel-bike,assets/img/mini-izumi/panel-bike.webp,image,1200 x 1600,webp,180 KB,,Full body — on bicycle,Delivered
+Can Anybody Hear Me?,mini-izumi/panel-detail,assets/img/mini-izumi/panel-detail.webp,image,1200 x 1600,webp,180 KB,,Detail shot,Delivered
+Can Anybody Hear Me?,mini-izumi/turntable-video,assets/img/mini-izumi/turntablevideo.mp4,video,1200 x 1600,mp4 (H.264),4.0 MB,"10s, muted loop — delivered at 4.83 MB, slightly over budget",360° turntable — clay → textured,Delivered
+Natilus,natilus/ai-gallery-1,assets/img/natilus/ai-gallery-1.webp,image,1200 x 1200,webp,120 KB,,Exploration 1,Pending
+Natilus,natilus/ai-gallery-2,assets/img/natilus/ai-gallery-2.webp,image,1200 x 1200,webp,120 KB,,Exploration 2,Pending
+Natilus,natilus/ai-gallery-3,assets/img/natilus/ai-gallery-3.webp,image,1200 x 1200,webp,120 KB,,Exploration 3,Pending
+Natilus,natilus/aircraft-clean,assets/img/natilus/aircraft-clean.webp,image,1920 x 1080,webp,200 KB,,Clean 3D render — no background,Pending
+Natilus,natilus/aircraft-integrated,assets/img/natilus/aircraft-integrated.webp,image,1920 x 1080,webp,200 KB,,Final — AI context integrated,Pending
+Natilus,natilus/airport-assembly,assets/img/natilus/airport-assembly.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Compositing layers — After Effects,Pending
+Natilus,natilus/airport-final,assets/img/natilus/airport-final.webp,image,1920 x 1080,webp,200 KB,,Final composite,Pending
+Natilus,natilus/hangar-assembly,assets/img/natilus/hangar-assembly.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Layer assembly loop — same format as Gum House / Snow Base,Pending
+Natilus,natilus/hangar-clay,assets/img/natilus/hangar-clay.webp,image,1920 x 1080,webp,200 KB,,Clay pass,Pending
+Natilus,natilus/hangar-final,assets/img/natilus/hangar-final.webp,image,1920 x 1080,webp,200 KB,,Final render,Pending
+Natilus,natilus/hero,assets/img/natilus/hero.webp,image,2400 x 1350,webp,320 KB,,Futuristic Airport — hero composite,Pending
+Natilus,natilus/motion-branding,assets/img/natilus/motion-branding.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Animated logo + intro,Pending
+Orange Train Station,orange-train-station/assembly-video,assets/img/orange-train-station/assembly-video.mp4,video,1500 x 1956,mp4 (H.264),4.9 MB,"11s, muted loop — portrait, not 16:9 like other assembly videos",Layer assembly loop,Delivered
+Orange Train Station,orange-train-station/clay,assets/img/orange-train-station/clay.webp,image,1500 x 1956,webp,200 KB,,Clay pass,Delivered
+Orange Train Station,orange-train-station/detail-1,assets/img/orange-train-station/detail-1.webp,image,1500 x 1956,webp,180 KB,,Station platform detail,Delivered
+Orange Train Station,orange-train-station/detail-2,assets/img/orange-train-station/detail-2.webp,image,1500 x 1956,webp,180 KB,,Grease Pencil linework close-up,Delivered
+Orange Train Station,orange-train-station/detail-3,assets/img/orange-train-station/detail-3.webp,image,1500 x 1956,webp,180 KB,,Signage / props detail,Delivered
+Orange Train Station,orange-train-station/detail-4,assets/img/orange-train-station/detail-4.webp,image,1500 x 1956,webp,180 KB,,Fourth detail shot,Delivered
+Orange Train Station,orange-train-station/final,assets/img/orange-train-station/final.webp,image,1500 x 1956,webp,200 KB,,Final render,Delivered
+Orange Train Station,orange-train-station/hero,assets/img/orange-train-station/hero.webp,image,2400 x 1350,webp,320 KB,,Final render — Orange Train Station,Delivered
+Snow Base,snow-base/assembly-video,assets/img/snow-base/assembly-video.mp4,video,1920 x 1080,mp4 (H.264),4.9 MB,"12s, muted loop",Layer assembly loop,Delivered
+Snow Base,snow-base/clay,assets/img/snow-base/clay.webp,image,1920 x 1080,webp,200 KB,,Clay pass,Delivered
+Snow Base,snow-base/detail-1,assets/img/snow-base/detail-1.webp,image,1920 x 1080,webp,200 KB,,Mountain ridge detail,Delivered
+Snow Base,snow-base/detail-2,assets/img/snow-base/detail-2.webp,image,1920 x 1080,webp,200 KB,,Base structure detail,Delivered
+Snow Base,snow-base/detail-3,assets/img/snow-base/detail-3.webp,image,1920 x 1080,webp,200 KB,,Snowfall post-production,Delivered
+Snow Base,snow-base/final,assets/img/snow-base/final.webp,image,1920 x 1080,webp,200 KB,,Final render,Delivered
+Snow Base,snow-base/hero,assets/img/snow-base/hero.webp,image,2400 x 1350,webp,320 KB,,Final render — Snow Base,Delivered
+Teradar,teradar/hero,assets/img/teradar/hero.webp,image,2400 x 1350,webp,320 KB,,Product render,Delivered
+Teradar,teradar/preview,assets/img/teradar/preview.webp,image,2400 x 1350,webp,320 KB,,Card thumbnail — used on Home/Work/Related cards,Delivered
+Teradar,teradar/pointcloud-morph,assets/img/teradar/pointcloud-morph.mp4,video,1920 x 1080,mp4 (H.264),4.0 MB,"~6-10s, muted loop",Organic sphere — point-cloud morph animation,Pending
+Teradar,teradar/pointcloud-1,assets/img/teradar/pointcloud-1.webp,image,1302 x 1080,webp,220 KB,,Point cloud applied — rainy crossing,Delivered
+Teradar,teradar/pointcloud-2,assets/img/teradar/pointcloud-2.webp,image,1920 x 1072,webp,290 KB,,Point cloud applied — city street,Delivered
+Teradar,teradar/pointcloud-3,assets/img/teradar/pointcloud-3.webp,image,1920 x 1080,webp,146 KB,,Point cloud applied — night highway HUD,Delivered
+Teradar,teradar/pointcloud-4,assets/img/teradar/pointcloud-4.webp,image,1920 x 1072,webp,245 KB,,Point cloud applied — mountain road,Delivered
+Teradar,teradar/pointcloud-5,assets/img/teradar/pointcloud-5.webp,image,1920 x 1072,webp,245 KB,,Point cloud applied — snowstorm,Delivered
+Teradar,teradar/product-1,assets/img/teradar/product-1.webp,image,1920 x 1080,webp,72 KB,,Device render — exploded view,Delivered
+Teradar,teradar/product-2,assets/img/teradar/product-2.webp,image,1920 x 1080,webp,96 KB,,Device render — top view,Delivered
+Teradar,teradar/product-3,assets/img/teradar/product-3.webp,image,1920 x 1080,webp,164 KB,,Device render — chip detail,Delivered
+Teradar,teradar/product-4,assets/img/teradar/product-4.webp,image,1920 x 1080,webp,47 KB,,Device render — lit front view,Delivered
+Site-wide,logo/nuke,assets/img/logo/nuke.svg,image,"200 x 200",svg (preferred) / png,20 KB,,,Delivered
+Natilus,natilus/logo,assets/img/natilus/natilus-logo.webp,image,200 x 200,webp,1.3 KB,,Natilus client logo — shown in the sidebar,Delivered
+Natilus,natilus/logo-gga,assets/img/teradar/gga_logo.webp,image,200 x 200,webp,1.1 KB,,"Global Grid Agency studio logo — reused from Teradar's asset",Delivered
+Teradar,teradar/logo,assets/img/teradar/teradar-logo.webp,image,200 x 200,webp,1 KB,,Teradar client logo — shown in the sidebar,Delivered
+Teradar,teradar/logo-gga,assets/img/teradar/gga_logo.webp,image,200 x 200,webp,1.1 KB,,Global Grid Agency studio logo — shown in the sidebar,Delivered
+Kosmo,kosmo/logo,assets/img/kosmo/kosmo-logo.webp,image,200 x 200,webp,3.5 KB,,Kosmo client logo — shown in the sidebar,Delivered
+Kosmo,kosmo/logo-gga,assets/img/teradar/gga_logo.webp,image,200 x 200,webp,1.1 KB,,"Global Grid Agency studio logo — reused from Teradar's asset",Delivered
+Bubbles and Friends — Cast,bubbles-characters/logo-bubbles,assets/img/bubbles-characters/logo-bubbles.webp,image,200 x 200,webp (transparent bg preferred),30 KB,,"Bubbles and Friends show logo — shown in the sidebar (same art as bubbles-environments/logo)",Delivered
+Bubbles and Friends — Cast,bubbles-characters/logo-bombillo,assets/img/goblin/logo_bombillo.webp,image,200 x 200,webp (transparent bg preferred),30 KB,,"Bombillo Amarillo studio logo — sidebar (reused from Goblin's asset)",Delivered
+Bubbles and Friends — Sets,bubbles-environments/logo,assets/img/bubbles-characters/logo-bubbles.webp,image,200 x 200,webp (transparent bg preferred),30 KB,,"Bubbles and Friends show logo — reused from bubbles-characters/logo-bubbles",Delivered
+Bubbles and Friends — Sets,bubbles-environments/logo-bombillo,assets/img/goblin/logo_bombillo.webp,image,200 x 200,webp (transparent bg preferred),30 KB,,"Bombillo Amarillo studio logo — reused from Goblin's asset",Delivered
+Goblin,goblin/logo-bombillo,assets/img/goblin/logo_bombillo.webp,image,200 x 200,webp (transparent bg preferred),30 KB,,Bombillo Amarillo studio logo — sidebar,Delivered
+Goblin,goblin/logo-doradobet,assets/img/goblin/logo-doradobet.webp,image,200 x 200,webp (transparent bg preferred),30 KB,,Dorado Bet client logo — sidebar,Delivered
