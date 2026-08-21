@@ -71,6 +71,10 @@
     var section = $(".logo-strip");
     var track = $("[data-logo-track]");
     if (!section || !track || reduced) return;
+    /* On narrow screens the drift range runs past the (finite, once-doubled)
+       logo strip's own content, exposing blank space — skip the effect and
+       let the strip sit at its centered CSS default instead. */
+    if (window.innerWidth < 720) return;
     var START = -140, RANGE = 320;
     var raf = null;
 
@@ -151,6 +155,12 @@
     var videos = $$("video[data-src]");
     if (!videos.length) return;
     function load(video) {
+      if (!video.dataset.src) return;
+      // Belt-and-suspenders: some mobile browsers are stricter about honoring
+      // the muted/playsinline *attributes* once src is assigned via JS, so
+      // set the IDL properties too right before the source is attached.
+      video.muted = true;
+      video.playsInline = true;
       video.src = video.dataset.src;
       video.removeAttribute("data-src");
     }
@@ -168,8 +178,16 @@
     }, { rootMargin: "600px 0px" });
     var ioPlay = new IntersectionObserver(function (entries) {
       entries.forEach(function (entry) {
-        if (entry.isIntersecting) entry.target.play().catch(function () {});
-        else entry.target.pause();
+        if (entry.isIntersecting) {
+          // ioLoad (600px-early) usually fires first, but on short mobile
+          // viewports both observers can cross their thresholds in the same
+          // tick with no guaranteed order — load() here is a no-op if the
+          // src is already set, so this just closes that race safely.
+          load(entry.target);
+          entry.target.play().catch(function () {});
+        } else {
+          entry.target.pause();
+        }
       });
     }, { threshold: 0.01 });
     videos.forEach(function (v) { ioLoad.observe(v); ioPlay.observe(v); });
@@ -409,6 +427,31 @@
   }
 
   /* ---------------------------------------------------------
+     Page transitions — fade the current page out before handing
+     off to a same-origin navigation, so the CSS page-enter
+     animation on the next document always has a matching exit.
+     --------------------------------------------------------- */
+  function initPageTransitions() {
+    if (reduced) return;
+    document.addEventListener("click", function (e) {
+      if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
+      var a = e.target.closest && e.target.closest("a[href]");
+      if (!a) return;
+      if (a.target && a.target !== "_self") return;
+      if (a.hasAttribute("download")) return;
+      var href = a.getAttribute("href");
+      if (!href || href.charAt(0) === "#") return;
+      if (/^(mailto:|tel:|javascript:)/i.test(href)) return;
+      var url;
+      try { url = new URL(href, window.location.href); } catch (err) { return; }
+      if (url.origin !== window.location.origin || url.href === window.location.href) return;
+      e.preventDefault();
+      document.body.classList.add("is-leaving");
+      setTimeout(function () { window.location.href = url.href; }, 300);
+    });
+  }
+
+  /* ---------------------------------------------------------
      Contact form (front-end only — no backend wired yet)
      --------------------------------------------------------- */
   function initContactForm() {
@@ -451,6 +494,7 @@
     safe(initCompare, "initCompare");
     safe(initLightbox, "initLightbox");
     safe(initSmoothAnchors, "initSmoothAnchors");
+    safe(initPageTransitions, "initPageTransitions");
     safe(initContactForm, "initContactForm");
     safe(mountYear, "mountYear");
     document.documentElement.classList.add("is-ready");

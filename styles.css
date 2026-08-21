@@ -331,6 +331,13 @@ ul { list-style: none; padding: 0; }
 
 @media (max-width: 719px) {
   .project-hero-full { min-height: 74svh; }
+  /* The hero is short enough on mobile that the h1/dek text often sits over
+     a mid-image zone the gradient doesn't darken much — add a flat low-opacity
+     tint on top so light-colored renders don't swallow the white text. */
+  .project-hero-full::before {
+    content: ""; position: absolute; inset: 0;
+    background: rgba(10,10,9,.28); pointer-events: none; z-index: 1;
+  }
 }
 
 .ai-breakdown {
@@ -673,30 +680,33 @@ ul { list-style: none; padding: 0; }
   .detail-row { grid-template-columns: 1fr; }
   .pair-row { grid-template-columns: 1fr; }
   .kit-sheet { grid-template-columns: repeat(3,1fr); }
+  /* Scroll-drift JS is skipped below this width (see initLogoDrift) — keep
+     the strip centered on its own content instead of desktop's -140px bias. */
+  .logo-strip-track { transform: none; justify-content: center; }
+  .logo-strip { display: flex; justify-content: center; }
 }
 
 /* =============================================================
-   15. Page transitions — native cross-document View Transitions.
-   No JS required; unsupported browsers just navigate normally
-   (Chromium 126+ / Edge support this today, progressive elsewhere).
+   15. Page transitions — plain CSS animation + a JS exit hook.
+   Deliberately NOT the native View Transitions API: that only
+   fires in Chromium and is inconsistent across visits/bfcache.
+   A `body` keyframe animation runs on every fresh document load
+   in every browser, full stop — initPageTransitions() in main.js
+   adds the matching exit fade before same-origin navigations.
    ============================================================= */
-@view-transition { navigation: auto; }
+body { animation: page-enter .5s var(--ease-out) both; }
+body.is-leaving { animation: page-exit .3s var(--ease-out) both; }
 
-::view-transition-old(root),
-::view-transition-new(root) {
-  animation-duration: .85s;
-  animation-timing-function: cubic-bezier(0.65, 0, 0.35, 1);
-}
-::view-transition-old(root) { animation-name: page-exit; }
-::view-transition-new(root) { animation-name: page-enter; }
-
-@keyframes page-exit {
-  from { opacity: 1; transform: scale(1); filter: blur(0); }
-  to   { opacity: 0; transform: scale(1.025); filter: blur(14px); }
-}
 @keyframes page-enter {
-  from { opacity: 0; transform: scale(0.98) translateY(18px); filter: blur(14px); }
-  to   { opacity: 1; transform: scale(1) translateY(0); filter: blur(0); }
+  from { opacity: 0; transform: translateY(14px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+@keyframes page-exit {
+  from { opacity: 1; transform: translateY(0); }
+  to   { opacity: 0; transform: translateY(-14px); }
+}
+@media (prefers-reduced-motion: reduce) {
+  body, body.is-leaving { animation: none; opacity: 1; transform: none; }
 }
 
 @media (prefers-reduced-motion: reduce) {
