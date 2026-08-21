@@ -624,8 +624,10 @@ ul { list-style: none; padding: 0; }
 }
 .field input:focus, .field textarea:focus { border-color: var(--accent); outline: none; }
 .field textarea { resize: vertical; min-height: 140px; }
-.form-status { margin-top: 1rem; font-size: .9rem; color: var(--ok); display: none; }
+.form-status { margin-top: 1rem; font-size: .9rem; color: var(--ink-soft); display: none; }
 .form-status.is-visible { display: block; }
+.form-status.is-success { color: var(--ok); }
+.form-status.is-error { color: var(--danger); }
 
 /* =============================================================
    11. Footer

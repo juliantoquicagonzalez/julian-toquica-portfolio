@@ -477,6 +477,16 @@
      animation on the next document always has a matching exit.
      --------------------------------------------------------- */
   function initPageTransitions() {
+    /* Back/forward navigation often restores the page from bfcache exactly
+       as it was frozen mid-navigation — including the "is-leaving" class we
+       add right before departing, which fades the page to opacity:0. Without
+       this, hitting Back can land on a page that's fully loaded but
+       invisible. pageshow with event.persisted===true is bfcache restores;
+       clearing the class on every pageshow (not just persisted ones) is
+       cheap insurance against the same staleness on any other browser quirk. */
+    window.addEventListener("pageshow", function () {
+      document.body.classList.remove("is-leaving");
+    });
     if (reduced) return;
     document.addEventListener("click", function (e) {
       if (e.defaultPrevented || e.button !== 0 || e.metaKey || e.ctrlKey || e.shiftKey || e.altKey) return;
@@ -503,19 +513,42 @@
     var form = $("[data-contact-form]");
     if (!form) return;
     var status = $(".form-status", form);
+    var submitBtn = $('button[type="submit"]', form);
+
+    function setStatus(text, kind) {
+      if (!status) return;
+      status.textContent = text;
+      status.classList.add("is-visible");
+      status.classList.toggle("is-error", kind === "error");
+      status.classList.toggle("is-success", kind === "success");
+    }
+
     form.addEventListener("submit", function (e) {
       e.preventDefault();
       if (!form.reportValidity()) return;
-      var name = $("#name", form).value;
-      var email = $("#email", form).value;
-      var message = $("#message", form).value;
-      var subject = encodeURIComponent("Portfolio contact — " + name);
-      var body = encodeURIComponent(message + "\n\n" + email);
-      window.location.href = "mailto:" + (data.contact && data.contact.email ? data.contact.email : "") + "?subject=" + subject + "&body=" + body;
-      if (status) {
-        status.textContent = "Opening your email client…";
-        status.classList.add("is-visible");
-      }
+      if (submitBtn) submitBtn.disabled = true;
+      setStatus("Sending…");
+
+      fetch(form.action || "https://api.web3forms.com/submit", {
+        method: "POST",
+        headers: { "Content-Type": "application/json", Accept: "application/json" },
+        body: JSON.stringify(Object.fromEntries(new FormData(form)))
+      })
+        .then(function (res) { return res.json(); })
+        .then(function (result) {
+          if (result.success) {
+            setStatus("Thanks — your message is on its way. I'll get back to you soon.", "success");
+            form.reset();
+          } else {
+            setStatus("Something went wrong. Please try again, or email me directly.", "error");
+          }
+        })
+        .catch(function () {
+          setStatus("Couldn't send — check your connection and try again, or email me directly.", "error");
+        })
+        .finally(function () {
+          if (submitBtn) submitBtn.disabled = false;
+        });
     });
   }
 

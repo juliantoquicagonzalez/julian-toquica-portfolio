@@ -9,7 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400..800&family=Inter:wght@300..700&family=JetBrains+Mono:wght@400;500&display=swap">
-<link rel="stylesheet" href="styles.css?v=20260998">
+<link rel="stylesheet" href="styles.css?v=20261000">
 <noscript><style>.reveal{opacity:1!important;transform:none!important;}</style></noscript><!-- no-js fallback -->
 </head>
 <body>
@@ -61,7 +61,11 @@
         </div>
       </div>
 
-      <form class="reveal" data-contact-form novalidate>
+      <form class="reveal" data-contact-form novalidate action="https://api.web3forms.com/submit" method="POST">
+        <input type="hidden" name="access_key" value="f45d5378-0212-4772-8ea5-be64d473bc6f">
+        <input type="hidden" name="subject" value="New message from freynirks.co">
+        <input type="hidden" name="redirect" value="https://freynirks.co/contact.html">
+        <input type="checkbox" name="botcheck" style="display:none" tabindex="-1" autocomplete="off">
         <div class="field">
           <label for="name">Name</label>
           <input id="name" name="name" type="text" required autocomplete="name">
@@ -113,7 +117,7 @@
   </div>
 </footer>
 
-<script defer src="lib/manifest.js?v=20260998"></script>
-<script defer src="main.js?v=20260998"></script>
+<script defer src="lib/manifest.js?v=20261000"></script>
+<script defer src="main.js?v=20261000"></script>
 </body>
 </html>
