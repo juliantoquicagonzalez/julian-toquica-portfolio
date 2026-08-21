@@ -71,11 +71,15 @@
     var section = $(".logo-strip");
     var track = $("[data-logo-track]");
     if (!section || !track || reduced) return;
-    /* On narrow screens the drift range runs past the (finite, once-doubled)
-       logo strip's own content, exposing blank space — skip the effect and
-       let the strip sit at its centered CSS default instead. */
-    if (window.innerWidth < 720) return;
-    var START = -140, RANGE = 320;
+    /* Desktop's -140..+180 range assumes a wide viewport; on a narrow one that
+       positive end can drift past the (finite, once-doubled) strip's own
+       content and expose blank space. Start at 0 (a clean, centered first
+       chip, not already 140px into the strip) and only ever drift further
+       LEFT from there — the strip has plenty of duplicated content in that
+       direction, so it can never run out no matter how narrow the screen is. */
+    var isNarrow = window.innerWidth < 720;
+    var START = isNarrow ? 0 : -140;
+    var RANGE = isNarrow ? -90 : 320;
     var raf = null;
 
     function update() {
@@ -146,14 +150,20 @@
   }
 
   /* ---------------------------------------------------------
-     Lazy-load autoplay videos — the network fetch starts early
-     (600px before the video reaches the viewport), but playback
-     only starts once the video actually scrolls into view, and
-     pauses again once it scrolls out.
+     Lazy videos. Two modes:
+     - Narrow/touch screens: mobile browsers block or silently drop
+       scroll-triggered autoplay unpredictably, so instead we load
+       just enough to show the first frame and put a tap-to-play
+       button over it — play() then fires from a real user gesture,
+       which no autoplay policy ever blocks.
+     - Wider screens: the original scroll-driven autoplay/pause,
+       muted and ambient, no button needed.
      --------------------------------------------------------- */
   function initLazyVideos() {
     var videos = $$("video[data-src]");
     if (!videos.length) return;
+    var tapToPlay = window.innerWidth < 720;
+
     function load(video) {
       if (!video.dataset.src) return;
       // Belt-and-suspenders: some mobile browsers are stricter about honoring
@@ -164,6 +174,41 @@
       video.src = video.dataset.src;
       video.removeAttribute("data-src");
     }
+
+    if (tapToPlay) {
+      function addPlayButton(video) {
+        var wrap = video.closest(".ph");
+        if (!wrap) return;
+        video.preload = "metadata"; // enough to paint the first frame as a poster
+        wrap.classList.add("ph--tap-video");
+        var btn = document.createElement("button");
+        btn.type = "button";
+        btn.className = "video-play-btn";
+        btn.setAttribute("aria-label", "Play video");
+        btn.innerHTML = '<svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>';
+        wrap.appendChild(btn);
+        btn.addEventListener("click", function (e) {
+          e.stopPropagation();
+          load(video);
+          video.play().catch(function () {});
+        });
+        video.addEventListener("play", function () { wrap.classList.add("is-playing"); });
+        video.addEventListener("pause", function () { wrap.classList.remove("is-playing"); });
+      }
+      videos.forEach(addPlayButton);
+      if (!("IntersectionObserver" in window)) { videos.forEach(load); return; }
+      var ioPoster = new IntersectionObserver(function (entries) {
+        entries.forEach(function (entry) {
+          if (entry.isIntersecting) {
+            load(entry.target);
+            ioPoster.unobserve(entry.target);
+          }
+        });
+      }, { rootMargin: "600px 0px" });
+      videos.forEach(function (v) { ioPoster.observe(v); });
+      return;
+    }
+
     if (!("IntersectionObserver" in window)) {
       videos.forEach(function (v) { load(v); v.play().catch(function () {}); });
       return;
