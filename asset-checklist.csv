@@ -79,9 +79,11 @@ Can Anybody Hear Me?,izumi/ai-poster,assets/img/izumi/ai-poster.webp,image,896 x
 Can Anybody Hear Me?,izumi/panel-full,assets/img/izumi/panel-full.webp,image,1200 x 1600,webp,180 KB,,Full body — relaxed pose,Delivered
 Can Anybody Hear Me?,izumi/panel-medium,assets/img/izumi/panel-medium.webp,image,1200 x 1600,webp,180 KB,,Medium shot — shoulders up,Delivered
 Can Anybody Hear Me?,izumi/turntable-video,assets/img/izumi/turntablevideo.mp4,video,1200 x 1600,mp4 (H.264),4.0 MB,"10s, muted loop — recompressed to 4.77 MB, close to budget",360° turntable — clay → textured,Delivered
-Kosmo,kosmo/animation-video,assets/img/kosmo/animation-video.mp4,video,1920 x 1080,mp4 (H.264),15.0 MB,"full length, with audio",Product animation,Pending
+Kosmo,kosmo/animation-video,assets/img/kosmo/animation-video.mp4,video,1920 x 1080,mp4 (H.264),3.9 MB,"muted loop",Product animation,Delivered
 Kosmo,kosmo/context-hand,assets/img/kosmo/ai-render-01.webp,image,1920 x 1080,webp,485 KB,,In hand,Delivered
-Kosmo,kosmo/context-museum,assets/img/kosmo/context-museum.webp,image,1920 x 1080,webp,180 KB,,Scanning a museum,Pending
+Kosmo,kosmo/context-museum,assets/img/kosmo/ai-render-04.webp,image,1920 x 1080,webp,231 KB,,Scanning a museum,Delivered
+Kosmo,kosmo/version-cosmic,assets/img/kosmo/ai-render-02.webp,image,1920 x 1080,webp,253 KB,,Device version exploration — cosmic point-cloud finish,Delivered
+Kosmo,kosmo/version-glass,assets/img/kosmo/ai-render-03.webp,image,1920 x 1080,webp,190 KB,,Device version exploration — glass finish,Delivered
 Kosmo,kosmo/hero,assets/img/kosmo/hero.webp,image,2400 x 1350,webp,320 KB,,Cinematic product render,Delivered
 Kosmo,kosmo/preview,assets/img/kosmo/frame-hero.webp,image,2400 x 1350,webp,320 KB,,Card thumbnail — used on Home/Work/Related cards,Delivered
 Kosmo,kosmo/render-1,assets/img/kosmo/kosmo-product-01.webp,image,3840 x 2160,webp,320 KB,,Render 1,Delivered
