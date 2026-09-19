@@ -159,3 +159,24 @@ Bubbles and Friends — Sets,bubbles-environments/logo,assets/img/bubbles-charac
 Bubbles and Friends — Sets,bubbles-environments/logo-bombillo,assets/img/goblin/logo_bombillo.webp,image,200 x 200,webp (transparent bg preferred),30 KB,,"Bombillo Amarillo studio logo — reused from Goblin's asset",Delivered
 Goblin,goblin/logo-bombillo,assets/img/goblin/logo_bombillo.webp,image,200 x 200,webp (transparent bg preferred),30 KB,,Bombillo Amarillo studio logo — sidebar,Delivered
 Goblin,goblin/logo-doradobet,assets/img/goblin/logo-doradobet.webp,image,200 x 200,webp (transparent bg preferred),30 KB,,Dorado Bet client logo — sidebar,Delivered
+Peer and Family,peer-and-family/hero,assets/img/peer-and-family/hero.jpg,image,2400 x 1352,jpg (optimized from delivered PNG),329 KB,,"Hero — 3-panel collage (page hero only; cards use card.jpg)",Delivered
+Motion & Animation,motion-animation/hero,assets/img/motion-animation/hero.jpg,image,2400 x 1352,jpg (optimized from delivered PNG),312 KB,,"Hero — Vigor Peptides 3-panel collage (page hero only; cards use card.jpg)",Delivered
+Peer and Family,peer-and-family/beer,assets/img/peer-and-family/beer.mp4,video,2048 x 2048,mp4 (H.264),8.7 MB,"6.7s, muted loop",Beer emoji animation,Delivered
+Peer and Family,peer-and-family/burger,assets/img/peer-and-family/burger.mp4,video,2048 x 2048,mp4 (H.264),4.7 MB,"3.1s, muted loop",Burger emoji animation,Delivered
+Peer and Family,peer-and-family/car,assets/img/peer-and-family/car.mp4,video,2048 x 2048,mp4 (H.264),10.7 MB,"5.8s, muted loop",Car emoji animation,Delivered
+Peer and Family,peer-and-family/cat,assets/img/peer-and-family/cat.mp4,video,2048 x 2048,mp4 (H.264),6.2 MB,"4.1s, muted loop",Cat emoji animation,Delivered
+Peer and Family,peer-and-family/croissant,assets/img/peer-and-family/croissant.mp4,video,2048 x 2048,mp4 (H.264),11.0 MB,"6.4s, muted loop",Croissant emoji animation,Delivered
+Peer and Family,peer-and-family/star-background,assets/img/peer-and-family/star-background.mp4,video,2048 x 2048,mp4 (H.264),13.8 MB,"10s, muted loop",Star background animation,Delivered
+Peer and Family,peer-and-family/family-gifts,assets/img/peer-and-family/family-gifts.mp4,video,1920 x 1920,mp4 (H.264),19.8 MB,"8.7s, muted loop — position 1. Heavy: consider compressing",Family gifts animation,Delivered
+Peer and Family,peer-and-family/family-sweepstakes-puzzle,assets/img/peer-and-family/family-sweepstakes-puzzle.mp4,video,2000 x 2000,mp4 (H.264),5.3 MB,"3.8s, muted loop — position 2",Family sweepstakes puzzle animation,Delivered
+Motion & Animation,motion-animation/alan-backpain,assets/img/alan/cut-backpain.mp4,video,1920 x 1080,mp4 (H.264),2.5 MB,"10s, has audio — player with controls",Alan cut — back pain,Delivered
+Motion & Animation,motion-animation/alan-clear,assets/img/alan/cut-clear.mp4,video,1920 x 1080,mp4 (H.264),2.7 MB,"10s, has audio — player with controls",Alan cut — clear,Delivered
+Motion & Animation,motion-animation/alan-move,assets/img/alan/cut-move.mp4,video,1920 x 1080,mp4 (H.264),3.0 MB,"2.6s, has audio — player with controls",Alan cut — move,Delivered
+Motion & Animation,motion-animation/alan-nutrition,assets/img/alan/cut-nutrition.mp4,video,1920 x 1080,mp4 (H.264),11.3 MB,"5.7s, has audio — player with controls",Alan cut — nutrition,Delivered
+Motion & Animation,motion-animation/finary-life-promo,assets/img/motion-animation/finary-life-promo.mp4,video,1000 x 542,mp4 (H.264),4.7 MB,"45.7s, has audio — player with controls (optimized)",Finary Life promo (motion graphics),Delivered
+Motion & Animation,motion-animation/vigor-01,assets/img/motion-animation/vigor-01.mp4,video,1620 x 2880 (9:16),mp4 (H.264),12.7 MB,"19.7s, has audio — player with controls (optimized)",Vigor Peptides — video 1,Delivered
+Motion & Animation,motion-animation/vigor-02,assets/img/motion-animation/vigor-02.mp4,video,1620 x 2880 (9:16),mp4 (H.264),5.3 MB,"17.9s, has audio — player with controls (optimized)",Vigor Peptides — video 2,Delivered
+Peer and Family / Motion & Animation,logo/makata-logo,assets/img/logo/makata-logo.jpg,image,200 x 200,jpg,3 KB,,"Makata Studio logo — sidebar of Peer and Motion & Animation",Delivered
+Can Anybody Hear Me?,logo/logo-izumi,assets/img/logo/logo-izumi.webp,image,,webp,,,Izumi logo (already in use; added to the checklist for completeness),Delivered
+Peer and Family,peer-and-family/card,assets/img/peer-and-family/card.jpg,image,1200 x 1200 (shown 4:5),jpg (optimized from delivered 2048 PNG),125 KB,,"Card — Home grid + Related projects (Peer logo)",Delivered
+Motion & Animation,motion-animation/card,assets/img/motion-animation/card.jpg,image,1200 x 1200 (shown 4:5),jpg (optimized from delivered 2048 PNG),75 KB,,"Card — Home grid + Related projects (blue bear)",Delivered
