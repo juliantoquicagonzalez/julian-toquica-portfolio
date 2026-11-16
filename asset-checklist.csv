@@ -106,12 +106,14 @@ Can Anybody Hear Me?,mini-izumi/ai-poster,assets/img/mini-izumi/ai-poster.webp,i
 Can Anybody Hear Me?,mini-izumi/panel-bike,assets/img/mini-izumi/panel-bike.webp,image,1200 x 1600,webp,180 KB,,Full body — on bicycle,Delivered
 Can Anybody Hear Me?,mini-izumi/panel-detail,assets/img/mini-izumi/panel-detail.webp,image,1200 x 1600,webp,180 KB,,Detail shot,Delivered
 Can Anybody Hear Me?,mini-izumi/turntable-video,assets/img/mini-izumi/turntablevideo.mp4,video,1200 x 1600,mp4 (H.264),4.0 MB,"10s, muted loop — delivered at 4.83 MB, slightly over budget",360° turntable — clay → textured,Delivered
-Natilus,natilus/render-1,assets/img/natilus/render-01.webp,image,1920 x 1072,webp,293 KB,,Aircraft integrated — AI environment 1,Delivered
+Natilus,natilus/render-1,assets/img/natilus/render-01.webp,image,1920 x 1080,webp,154 KB,,Aircraft integrated — AI environment 1,Delivered
 Natilus,natilus/render-2,assets/img/natilus/render-02.webp,image,1920 x 1080,webp,381 KB,,Aircraft integrated — AI environment 2,Delivered
 Natilus,natilus/render-3,assets/img/natilus/render-03.webp,image,1920 x 1072,webp,171 KB,,Aircraft integrated — AI environment 3,Delivered
 Natilus,natilus/render-4,assets/img/natilus/render-04.webp,image,1920 x 1072,webp,138 KB,,Aircraft integrated — AI environment 4,Delivered
-Natilus,natilus/render-5,assets/img/natilus/render-05.webp,image,1920 x 1072,webp,127 KB,,Aircraft integrated — AI environment 5,Delivered
-Natilus,natilus/render-6,assets/img/natilus/render-06.webp,image,1920 x 1080,webp,220 KB,,Aircraft integrated — AI environment 6,Delivered
+Natilus,natilus/render-5,assets/img/natilus/render-05.webp,image,1920 x 1080,webp,170 KB,,Aircraft integrated — AI environment 5,Delivered
+Natilus,natilus/render-6,assets/img/natilus/render-06.webp,image,1920 x 1100,webp,354 KB,,Aircraft integrated — AI environment 6,Delivered
+Natilus,natilus/render-7,assets/img/natilus/render-07.webp,image,1920 x 1072,webp,127 KB,,Aircraft integrated — AI environment 7,Delivered
+Natilus,natilus/render-8,assets/img/natilus/render-08.webp,image,1920 x 1100,webp,170 KB,,Aircraft integrated — AI environment 8,Delivered
 Natilus,natilus/airport-final,assets/img/natilus/airport-final.webp,image,1920 x 1080,webp,384 KB,,Final composite — Photoshop photomontage,Delivered
 Natilus,natilus/airport-assembly,assets/img/natilus/airport-assembly.mp4,video,1920 x 1080,mp4 (H.264),2.2 MB,"muted loop",Compositing process — Futuristic Airport,Delivered
 Natilus,natilus/hangar-final,assets/img/natilus/hangar-final.webp,image,1920 x 1080,webp,341 KB,,Final render — Hangar,Delivered
@@ -146,6 +148,8 @@ Teradar,teradar/product-1,assets/img/teradar/product-1.webp,image,1920 x 1080,we
 Teradar,teradar/product-2,assets/img/teradar/product-2.webp,image,1920 x 1080,webp,96 KB,,Device render — top view,Delivered
 Teradar,teradar/product-3,assets/img/teradar/product-3.webp,image,1920 x 1080,webp,164 KB,,Device render — chip detail,Delivered
 Teradar,teradar/product-4,assets/img/teradar/product-4.webp,image,1920 x 1080,webp,47 KB,,Device render — lit front view,Delivered
+Teradar,teradar/product-5,assets/img/teradar/product-5.webp,image,1920 x 1080,webp,82 KB,,Device render — exploded view with aluminum housing,Delivered
+Teradar,teradar/product-6,assets/img/teradar/product-6.webp,image,1920 x 1080,webp,151 KB,,Device render — lit circuit board close-up,Delivered
 Site-wide,logo/nuke,assets/img/logo/nuke.svg,image,"200 x 200",svg (preferred) / png,20 KB,,,Delivered
 Natilus,natilus/logo,assets/img/natilus/natilus-logo.webp,image,200 x 200,webp,1.3 KB,,Natilus client logo — shown in the sidebar,Delivered
 Natilus,natilus/logo-gga,assets/img/teradar/gga_logo.webp,image,200 x 200,webp,1.1 KB,,"Global Grid Agency studio logo — reused from Teradar's asset",Delivered
